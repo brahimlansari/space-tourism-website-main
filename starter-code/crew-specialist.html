@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styleC.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <script src="crew.js"></script>
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+  <div class="navbar">
+    <img src="assets/shared/logo.svg">
+    <hr >
+    <div class="exnav">
+     <hr>
+      <a onclick="naviguetToH()">00 HOME</a>
+      <a onclick="naviguetToD()">01  DESTINATION</a>
+      <a class="active">02  CREW</a>
+      <a onclick="naviguetToT()">03  TECHNOLOGIE</a>
+     </div>
+   </div>
+   <div class="title">
+     <h2> <span>02</span>  MEET YOUR CREW</h2>
+    </div>
+   <div class="corps">
+     <div class="container1">
+       <h3>MISSION SPECIALIST</h3>
+       <h2>MARK SHUTTLEWORTH</h2>
+       <p>Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind 
+        the Linux-based Ubuntu operating system. Shuttleworth became the first South 
+        African to travel to space as a space tourist.</p>
+       <div class="scroller">
+         <span onclick="commander()"></span>
+         <span onclick="engineer()"></span>
+         <span onclick="pilot()"></span>
+         <span class="active"></span>
+       </div>
+     </div>
+     <div class="container2">
+       <img class="img2" src="assets/crew/image-mark-shuttleworth3.png">
+     </div>
+   </div> 
+
+
+</body>
+</html>
+

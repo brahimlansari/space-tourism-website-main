@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styleC.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <script src="crew.js"></script>
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+  <div class="navbar">
+    <img src="assets/shared/logo.svg">
+    <hr >
+    <div class="exnav">
+     <hr>
+      <a onclick="naviguetToH()">00 HOME</a>
+      <a onclick="naviguetToD()">01  DESTINATION</a>
+      <a class="active">02  CREW</a>
+      <a onclick="naviguetToT()">03  TECHNOLOGIE</a>
+     </div>
+   </div>
+   <div class="title">
+     <h2> <span>02</span>  MEET YOUR CREW</h2>
+    </div>
+   <div class="corps">
+     <div class="container1">
+       <h3>FLIGHT ENGINEER</h3>
+       <h2>ANOUSHEH ANSARI</h2>
+       <p>Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space. </p>
+       <div class="scroller">
+         <span onclick="commander()"></span>
+         <span class="active"></span>
+         <span onclick="pilot()"></span>
+         <span onclick="specialist()"></span>
+       </div>
+     </div>
+     <div class="container2">
+       <img sizes="1850px" src="assets/crew/image-anousheh-ansari2.png">
+     </div>
+   </div>
+
+  
+</body>
+</html>
